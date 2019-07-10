@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "SF Thin";
+  src: url("fonts/SF/SF-Pro-Display-Thin.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "SF Regular";
+  src: url("fonts/SF/SF-Pro-Display-Regular.otf")format("opentype");
+}
+
+/* css for computer */
+
+@media only screen and (min-width: 1125px)  {
+
+  body {
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    background-color: #f1f1f1;
+  }
+
+  #background-video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100vh;
+    width: auto;
+    z-index: -100;
+  }
+
+  .logotipo1 {
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,0%);
+    height: 8vh;
+    width: auto;
+  }
+
+  .logotipo2 {
+    position: fixed;
+    left: 5vh;
+    top: 7%;
+    transform: translate(0%,-50%);
+    height: 5vh;
+    width: auto;
+    opacity: 0;
+    transition: 0.2s;
+  }
+
+  .logo1 {
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,0%);
+    height: 8vh;
+    width: auto;
+    opacity: 0;
+  }
+
+  .logo2 {
+    position: fixed;
+    left: 5vh;
+    top: 7%;
+    transform: translate(0%,-50%);
+    height: 5vh;
+    width: auto;
+    opacity: 100;
+    transition: 0.2s;
+  }
+
+  .logo_mobile {
+    display: none;
+  }
+
+  .lingua {
+    margin: 0;
+    position: absolute;
+    right: 5vh;
+    top: 7%;
+    transform: translate(0%,-50%);
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    color: #ffffff;
+  }
+
+  .lingua a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    color: #ffffff;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .down {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
+
+  .high {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    transition: 0.3s;
+  }
+
+  .menu li {
+    display: inline-block;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .socials {
+    position: absolute;
+    right: 5vh;
+    top: 93%;
+    transform: translate(0%,-50%);
+  }
+
+  #facebook, #pinterest, #instagram {
+    height: 2.5vh;
+    width: auto;
+  }
+
+  #pinterest {
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+
+  #support {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%,-50%);
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    border: 1px solid white;
+    border-radius: 2vh;
+  }
+
+  #support a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+}
+
+/* end css for computer */
+
+/* css for mobile */
+
+@media only screen and (max-width: 1125px)  {
+
+  body {
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    background-color: #f1f1f1;
+  }
+
+  #background-video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100vh;
+    width: auto;
+    z-index: -100;
+  }
+
+  .logotipo1 {
+    display: none;
+  }
+
+  .logotipo2 {
+    display: none;
+  }
+
+  .logo1 {
+    display: none;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .logo_mobile {
+    width: 17vw;
+    height: auto;
+    position: absolute;
+    top: calc(8.5vw + 5vh);
+    left: 5vh;
+    transform: translate(0%,-50%);
+  }
+
+  .lingua {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: calc(8.5vw + 5vh);
+    transform: translate(0%,-50%);
+    font-family: "SF Regular";
+    font-size: 5vh;
+    letter-spacing: 0.2vw;
+    color: #ffffff;
+  }
+
+  .lingua a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  #instagram {
+    display: none;
+  }
+
+  #facebook {
+    display: none;
+  }
+
+}
+
+/* end css for mobile */
