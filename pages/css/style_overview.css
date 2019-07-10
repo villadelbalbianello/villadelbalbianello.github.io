@@ -1,0 +1,542 @@
+@font-face {
+  font-family: "SF Thin";
+  src: url("fonts/SF/SF-Pro-Display-Thin.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "SF Regular";
+  src: url("fonts/SF/SF-Pro-Display-Regular.otf")format("opentype");
+}
+
+body {
+  margin: 0;
+  border: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+}
+
+.lingua {
+  margin: 0;
+  position: absolute;
+  right: 5vh;
+  top: 7%;
+  transform: translate(0%,-50%);
+  font-family: "SF Regular";
+  font-size: 2.2vh;
+  letter-spacing: 0.2vw;
+  color: #ffffff;
+  z-index: 1000;
+}
+
+.lingua a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logotipo1 {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%,0%);
+  height: 8vh;
+  width: auto;
+  transition: 0.2s;
+}
+
+.logotipo2 {
+  position: absolute;
+  left: 5vh;
+  top: 7%;
+  transform: translate(0%,-50%);
+  height: 5vh;
+  width: auto;
+  opacity: 0;
+}
+
+.logo1 {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%,0%);
+  height: 8vh;
+  width: auto;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.logo2 {
+  position: absolute;
+  left: 5vh;
+  top: 7%;
+  transform: translate(0%,-50%);
+  height: 5vh;
+  width: auto;
+  opacity: 100;
+  z-index: 1000;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: "SF Regular";
+  font-size: 2.2vh;
+  letter-spacing: 0.2vw;
+  width: 100vw;
+  text-align: center;
+}
+
+.down {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.high {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.3s;
+}
+
+.menu li {
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.background_container {
+  position: absolute;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.background {
+  position: inherit;
+  width: 100vw;
+  height: auto;
+}
+
+.title_overview {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  transform: translate(0,-50%);
+}
+
+.title_img {
+  height: 3.5vh;
+  width: auto;
+}
+
+.color_section {
+  width: 2.2vw;
+  height: 0.6vh;
+  background-color: #8b9eb7;
+  margin: 0;
+  margin-top: 4vh;
+  margin-left: 4vh;
+  transform: translate(0,50%);
+}
+
+.title_description {
+  font-family: "SF Thin";
+  font-size: 2.2vh;
+  line-height: 3vh;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 4vh;
+  margin-left: 4vh;
+}
+
+.description {
+  font-family: "SF Thin";
+  font-size: 2.2vh;
+  line-height: 3vh;
+  letter-spacing: 1px;
+  color: #000000;
+  margin: 0;
+  margin-top: 4vh;
+  margin-left: 4vh;
+  width: 25vw;
+  text-align: justify;
+}
+
+.body_moving {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100%;
+  background-color: #f1f1f1;
+}
+
+.title {
+  font-family: "SF Regular";
+  font-size: 4vh;
+  color: #000000;
+  margin: 0;
+}
+
+.overview {
+  position: absolute;
+  top: 126%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.overview_img {
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  top: 148%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+
+.date {
+  font-family: "SF Regular";
+  font-size: 4vh;
+  color: #f8a929;
+  margin: 0;
+  margin-left: 4vh;
+}
+
+.cardinale_angelo_maria_durini {
+  position: absolute;
+  top: 200%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.cardinale_angelo_maria_durini .title {
+  margin-top: 4vh;
+}
+
+.cardinale_angelo_maria_durini_img01 {
+  height: 22vw;
+  width: auto;
+  position: absolute;
+  top: 210%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}
+
+.cardinale_angelo_maria_durini_img02 {
+  height: 25vw;
+  width: auto;
+  position: absolute;
+  top: 247%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+}
+
+.primi_lavori {
+  position: absolute;
+  top: 272%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.primi_lavori_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 328%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+
+.loggia {
+  position: absolute;
+  top: 345%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.loggia_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 410%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+}
+
+.luigi_porro_lambertenghi {
+  position: absolute;
+  top: 415%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.luigi_porro_lambertenghi .title {
+  margin-top: 4vh;
+}
+
+.luigi_porro_lambertenghi_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 510%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+
+.ritorno_in_auge {
+  position: absolute;
+  top: 492%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.ritorno_in_auge .title {
+  margin-top: 4vh;
+}
+
+.ritorno_in_auge_img {
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 620%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+}
+
+.guido_monzino {
+  position: absolute;
+  top: 562%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.guido_monzino .title {
+  margin-top: 4vh;
+}
+
+.guido_monzino_img01 {
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  top: 620%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+
+.guido_monzino_img02 {
+  height: 50vh;
+  width: auto;
+  position: absolute;
+  top: 680%;
+  left: 58%;
+  transform: translate(-50%,-50%);
+}
+
+.giardino {
+  position: absolute;
+  top: 635%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.giardino_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 775%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+}
+
+.interni {
+  position: absolute;
+  top: 710%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.interni_img01 {
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  top: 783%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+
+.interni_img02 {
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  top: 888%;
+  left: 58%;
+  transform: translate(-50%,-50%);
+}
+
+.biblioteca {
+  position: absolute;
+  top: 784%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.biblioteca_img01 {
+  height: 50vh;
+  width: auto;
+  position: absolute;
+  top: 850%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}
+
+.biblioteca_img02 {
+  height: 50vh;
+  width: auto;
+  position: absolute;
+  top: 950%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+}
+
+.cimeli_delle_spedizioni {
+  position: absolute;
+  top: 850%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.cimeli_delle_spedizioni_img {
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  top: 1050%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+
+.donazione_fai01 {
+  position: absolute;
+  top: 917%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.donazione_fai01 .title {
+  margin-top: 4vh;
+}
+
+.donazione_fai_img01 {
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  top: 1076%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+}
+
+.donazione_fai02 {
+  position: absolute;
+  top: 988%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.donazione_fai02 .description {
+  margin-top: 0;
+}
+
+.donazione_fai_img02 {
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  top: 1222.5%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+
+.curiosità {
+  position: absolute;
+  top: 1060%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.curiosità_img01 {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 1115%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}
+
+.curiosità_img02 {
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 1290%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+}
+
+.socials {
+  position: absolute;
+  right: 5vh;
+  top: 1108%;
+  transform: translate(0%,-50%);
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+#facebook, #pinterest, #instagram {
+  height: 2.5vh;
+  width: auto;
+}
+
+#pinterest {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#support {
+  margin: 0;
+  margin-bottom: 5vh;
+  position: absolute;
+  left: 50%;
+  top: 1108%;
+  transform: translate(-50%,-50%);
+  font-family: "SF Regular";
+  font-size: 2.2vh;
+  letter-spacing: 0.2vw;
+  padding: 1vw;
+  padding-top: 0.8vh;
+  padding-bottom: 0.8vh;
+  border: 1px solid black;
+  border-radius: 2vh;
+}
+
+#support a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.hidden {
+  display: none;
+}
+
+.over {
+  z-index: 1000;
+  background-color: rgba(241, 241, 241, 0.2);
+}

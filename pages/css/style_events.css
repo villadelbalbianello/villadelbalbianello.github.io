@@ -1,0 +1,319 @@
+@font-face {
+  font-family: "SF Thin";
+  src: url("fonts/SF/SF-Pro-Display-Thin.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "SF Regular";
+  src: url("fonts/SF/SF-Pro-Display-Regular.otf")format("opentype");
+}
+
+body {
+  margin: 0;
+  border: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+}
+
+.lingua {
+  margin: 0;
+  position: absolute;
+  right: 5vh;
+  top: 7%;
+  transform: translate(0%,-50%);
+  font-family: "SF Regular";
+  font-size: 2.2vh;
+  letter-spacing: 0.2vw;
+  color: #ffffff;
+  z-index: 1000;
+}
+
+.lingua a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logotipo1 {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%,0%);
+  height: 8vh;
+  width: auto;
+  transition: 0.2s;
+}
+
+.logotipo2 {
+  position: absolute;
+  left: 5vh;
+  top: 7%;
+  transform: translate(0%,-50%);
+  height: 5vh;
+  width: auto;
+  opacity: 0;
+}
+
+.logo1 {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%,0%);
+  height: 8vh;
+  width: auto;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.logo2 {
+  position: absolute;
+  left: 5vh;
+  top: 7%;
+  transform: translate(0%,-50%);
+  height: 5vh;
+  width: auto;
+  opacity: 100;
+  z-index: 1000;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: "SF Regular";
+  font-size: 2.2vh;
+  letter-spacing: 0.2vw;
+  width: 100vw;
+  text-align: center;
+}
+
+.down {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.high {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.3s;
+}
+
+.menu li {
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.background_container {
+  position: absolute;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.background {
+  position: inherit;
+  top: -70%;
+  width: 100vw;
+  height: auto;
+}
+
+.title_events {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  transform: translate(0,-50%);
+}
+
+.title_img {
+  height: 3.5vh;
+  width: auto;
+}
+
+.title_events .description {
+  color: #ffffff;
+}
+
+.color_section {
+  width: 2.2vw;
+  height: 0.6vh;
+  background-color: #8b9e00;
+  margin: 0;
+  margin-top: 4vh;
+  margin-left: 4vh;
+  transform: translate(0,50%);
+}
+
+.description {
+  font-family: "SF Thin";
+  font-size: 2.2vh;
+  line-height: 3vh;
+  letter-spacing: 1px;
+  color: #000000;
+  margin: 0;
+  margin-top: 4vh;
+  margin-left: 4vh;
+}
+
+.body_moving {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100%;
+  background-color: #f1f1f1;
+}
+
+.title {
+  font-family: "SF Regular";
+  font-size: 4vh;
+  color: #000000;
+  margin: 0;
+}
+
+.overview {
+  position: absolute;
+  top: 135%;
+  left: 15%;
+  transform: translate(0,-50%);
+}
+
+.overview .description {
+  width: 25vw;
+  height: 25vh;
+  text-align: justify;
+}
+
+.overview_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 162%;
+  left: 55%;
+  transform: translate(0,-50%);
+}
+
+.loggia_durini {
+  position: absolute;
+  top: 200%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.loggia_durini_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 248%;
+  left: 10%;
+  transform: translate(0,-50%);
+}
+
+.terrazza_a_lago {
+  position: absolute;
+  top: 257%;
+  left: 25%;
+  transform: translate(0,-50%);
+}
+
+.terrazza_a_lago_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 325%;
+  left: 55%;
+  transform: translate(0,-50%);
+}
+
+.loggia_segrè {
+  position: absolute;
+  top: 317%;
+  left: 60%;
+  transform: translate(0,-50%);
+}
+
+.loggia_segrè_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 402%;
+  left: 10%;
+  transform: translate(0,-50%);
+}
+
+.terrazza_canfora {
+  position: absolute;
+  top: 377%;
+  left: 25%;
+  transform: translate(0,-50%);
+}
+
+.terrazza_canfora_img {
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 482%;
+  left: 55%;
+  transform: translate(0,-50%);
+}
+
+.socials {
+  position: absolute;
+  right: 5vh;
+  top: 417%;
+  transform: translate(0%,-50%);
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+#facebook, #pinterest, #instagram {
+  height: 2.5vh;
+  width: auto;
+}
+
+#pinterest {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#support {
+  margin: 0;
+  margin-bottom: 5vh;
+  position: absolute;
+  left: 50%;
+  top: 417%;
+  transform: translate(-50%,-50%);
+  font-family: "SF Regular";
+  font-size: 2.2vh;
+  letter-spacing: 0.2vw;
+  padding: 1vw;
+  padding-top: 0.8vh;
+  padding-bottom: 0.8vh;
+  border: 1px solid black;
+  border-radius: 2vh;
+}
+
+#support a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.hidden {
+  display: none;
+}
+
+.over {
+  z-index: 1000;
+  background-color: rgba(241, 241, 241, 0.2);
+}
