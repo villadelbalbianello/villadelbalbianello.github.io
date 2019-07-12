@@ -1,0 +1,375 @@
+@font-face {
+  font-family: "SF Thin";
+  src: url("fonts/SF/SF-Pro-Display-Thin.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "SF Regular";
+  src: url("fonts/SF/SF-Pro-Display-Regular.otf")format("opentype");
+}
+
+/* css for computer */
+
+@media only screen and (min-width: 1125px)  {
+
+  body {
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    background-color: #f1f1f1;
+  }
+
+  #background_video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100vh;
+    width: auto;
+    z-index: -100;
+  }
+
+  #background_video_mobile {
+    display: none;
+  }
+
+  .logotipo1 {
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,0%);
+    height: 8vh;
+    width: auto;
+  }
+
+  .logotipo2 {
+    position: fixed;
+    left: 5vh;
+    top: 7%;
+    transform: translate(0%,-50%);
+    height: 5vh;
+    width: auto;
+    opacity: 0;
+    transition: 0.2s;
+  }
+
+  .logo1 {
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,0%);
+    height: 8vh;
+    width: auto;
+    opacity: 0;
+  }
+
+  .logo2 {
+    position: fixed;
+    left: 5vh;
+    top: 7%;
+    transform: translate(0%,-50%);
+    height: 5vh;
+    width: auto;
+    opacity: 100;
+    transition: 0.2s;
+  }
+
+  .logo_mobile {
+    display: none;
+  }
+
+  .lingua {
+    margin: 0;
+    position: absolute;
+    right: 5vh;
+    top: 7%;
+    transform: translate(0%,-50%);
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    color: #ffffff;
+  }
+
+  .lingua a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    color: #ffffff;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .down {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
+
+  .high {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    transition: 0.3s;
+  }
+
+  .menu li {
+    display: inline-block;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .socials {
+    position: absolute;
+    right: 5vh;
+    top: 93%;
+    transform: translate(0%,-50%);
+  }
+
+  #facebook, #pinterest, #instagram {
+    height: 2.5vh;
+    width: auto;
+  }
+
+  #pinterest {
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+
+  #support {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%,-50%);
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    border: 1px solid white;
+    border-radius: 2vh;
+  }
+
+  #support a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+}
+
+/* end css for computer */
+
+/* css for mobile */
+
+@media only screen and (max-width: 1125px)  {
+
+  body {
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    background-color: #f1f1f1;
+  }
+
+  #background_video {
+    display: none;
+  }
+
+  #background_video_mobile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100vh;
+    width: auto;
+    z-index: -100;
+  }
+
+  .black_box {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    opacity: 0.3;
+  }
+
+  .logotipo1 {
+    display: none;
+  }
+
+  .logotipo2 {
+    display: none;
+  }
+
+  .logo1 {
+    display: none;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .logo_mobile {
+    height: 6vh;
+    width: auto;
+    position: absolute;
+    top: 8vh;
+    left: 5vh;
+    transform: translate(0%,-50%);
+  }
+
+  .lingua {
+    display: none;
+  }
+
+  .lingua_mobile {
+    margin: 0;
+    position: absolute;
+    right: 15.5vh;
+    top: 8vh;
+    transform: translate(0%,-50%);
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+  }
+
+  .lingua_mobile a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .burger_menu {
+    position: absolute;
+    top: 8vh;
+    right: 5vh;
+    transform: translate(0%,-50%);
+    z-index: 1000;
+  }
+
+  .span_top, .span_middle, .span_bottom {
+    height: 0.8vh;
+    width: 5.5vh;
+    background-color: #ffffff;
+    border-radius: 100vh;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+    transition-delay: 0.13s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  .span_top {
+    transform: translate(0,50%);
+  }
+
+  .span_middle {
+    margin-top: 1.8vh;
+    margin-bottom: 1.8vh;
+    transition: opacity 0.2s linear;
+    transition-delay: 0.2s;
+  }
+
+  .span_bottom {
+    transform: translate(0,-50%);
+  }
+
+  .burger_menu.is-active .span_top {
+    transform: translate(0,2.6vh) rotate(45deg);
+    transition-delay: 0.2s;
+  }
+
+  .burger_menu.is-active .span_middle {
+    opacity: 0;
+  }
+
+  .burger_menu.is-active .span_bottom {
+    transform: translate(0,-2.6vh) rotate(-45deg);
+    transition-delay: 0.2s;
+  }
+
+  .menu {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    color: #ffffff;
+    width: 100vw;
+    text-align: center;
+    display: none;
+  }
+
+  .menu li {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .socials {
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%,-50%);
+    display: none;
+  }
+
+  #facebook, #pinterest, #instagram {
+    height: 4vh;
+    width: auto;
+  }
+
+  #pinterest {
+    margin-left: 7.5vh;
+    margin-right: 7.5vh;
+  }
+
+  #support {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 82%;
+    transform: translate(-50%,-50%);
+    font-family: "SF Regular";
+    font-size: 2.2vh;
+    letter-spacing: 0.2vw;
+    padding: 1.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: 1px solid white;
+    border-radius: 2vh;
+    background-color: #ffffff;
+    display: none;
+  }
+
+  #support a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+/* end css for mobile */
