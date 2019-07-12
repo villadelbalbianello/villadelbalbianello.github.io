@@ -94,6 +94,10 @@
     text-decoration: none;
     color: #ffffff;
   }
+  
+  .lingua_mobile {
+    display: none;
+  }
 
   .menu {
     list-style: none;
